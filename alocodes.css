@@ -1,0 +1,44 @@
+/* JAIME'S COLORS & UNICODES */
+
+#elizaw {
+  --unicode:'\a92';
+  --main: 236, 112, 99;
+  --alt: 241, 196, 15; 
+}
+
+#daphneb {
+  --unicode:'\a25';
+  --main: 187,143,206;
+  --alt: 244, 208, 63;
+}
+
+#gogoc {
+  --unicode:'\ec01';
+  --main: 133, 193, 233;
+  --alt: 171, 235, 198; 
+}
+
+#stellam {
+  --unicode:'\ec02';
+  --main: 102, 51, 102;
+  --alt: 236, 176, 214;
+}
+
+#sadiea
+{
+  --unicode:'\a67';
+  --main: 255, 153, 102;
+  --alt: 255, 153, 204;
+}
+
+#dorianj {
+  --unicode:'\a93';
+  --main: 42, 170, 138;
+  --alt: 201, 204, 63;
+}
+
+#maatib {
+  --unicode:'\a119';
+  --main: 140, 54, 78;
+  --alt: 194, 82, 90;
+}
