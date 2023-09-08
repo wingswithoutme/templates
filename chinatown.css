@@ -1,0 +1,213 @@
+.chinatown-wrapper {
+  width: 600px;
+  height: 450px;
+  position: relative;
+  margin: 25px auto;
+  background: #f8f9f9;
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 7px #CCD1D1;
+}
+
+.chinatown-wrapper b {
+  font-weight: 600;
+  color: var(--main);
+}
+
+.chinatown-wrapper a {
+  font-size: 14px;
+  text-transform: lowercase;
+  font-family: raleway;
+  text-decoration: var(--primary) underline;
+  font-weight: 800;
+  line-height: 16px;
+  color: #566573;
+}
+
+.chinatown hr {
+  height: 1px;
+  border: 0px;
+  margin: 25px 0px;
+}
+
+/* character content */
+.chinatown-content {
+  opacity: 1;
+  z-index 1;
+  position: absolute;
+  right: -625px; 
+  top: 0px;
+  height: 500px;
+  width: 700px;
+  color: #808B96;
+  font-family: raleway;
+  font-weight: 600;
+  margin-left: 20px;
+  background: #F8F9F9;
+  white-space: pre-wrap;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-duration: .65s;
+  -webkit-transition-duration: .65s;
+}
+
+.chinatown-hover {
+  position: absolute;
+  top: 15px;
+  overflow: hidden;
+  width: 175px;
+  height: 375px;
+  border-radius: 10px;
+  background-position: -45px;
+  background-image: var(--img);
+  box-shadow: 10px 10px var(--main);
+  z-index: 4;
+}
+
+.chinatown-top {
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  height: 20px;
+  width: 300px;
+  padding-left: 15px;
+  background: var(--main);
+  border-radius: 15px;
+  font-family: raleway;
+  font-size: 16px;
+  color: #f8f9f9;
+  font-weight: 400;
+  z-index: 4;
+}
+
+.chinatown-app {
+  position: absolute;
+  top: 50px;
+  right: -20px;
+  height: 20px;
+  width: 200px;
+  padding-left: 15px;
+  background: var(--accent);
+  border-radius: 15px;
+  font-family: raleway;
+  font-size: 16px;
+  color: #f8f9f9;
+  font-weight: 400;
+  z-index: 4;
+}
+
+.chinatown-plots {
+  position: absolute;
+  top: 290px;
+  right: -20px;
+  height: 20px;
+  width: 300px;
+  padding-left: 15px;
+  background: var(--main);
+  border-radius: 15px;
+  font-family: raleway;
+  font-size: 16px;
+  color: #f8f9f9;
+  font-weight: 400;
+  z-index: 4;
+}
+
+.chinatown-blurb {
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  overflow: hidden;
+  width: 365px;
+  height: 250px;
+  border: 2px;
+  font-family: raleway;
+  font-size: 16px;
+  line-height: 22px;
+  color: #566573;
+  text-align: justify;
+  white-space: pre-wrap;
+  z-index: 4;
+}
+
+.chinatown-plotblurb {
+  position: absolute;
+  top: 320px;
+  left: 200px;
+  overflow: hidden;
+  width: 365px;
+  height: 250px;
+  font-family: raleway;
+  font-size: 16px;
+  line-height: 22px;
+  color: #566573;
+  text-align: justify;
+  white-space: pre-wrap;
+  z-index: 4;
+}
+
+/* tabby tabs */
+.chinatown-nav {
+  position: absolute;
+  left: 0px; 
+  top: 0px;
+  width: 50px;
+  height: 100%;
+  background: #CCD1D1;
+  z-index: 3;
+}
+
+.chinatowntab { 
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  width: 700px;
+  height: 100%;
+  overflow: hidden;
+  color: #808B96;
+}
+
+.chinatowntab label {
+  position: absolute;
+  display: inline;
+  left: 0px;
+  z-index: 10;
+  background: #F8F9F9;
+  opacity: .65;
+  border: 1px solid #e3e3e3;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-duration: .65s;
+  -webkit-transition-duration: .65s;
+  }
+
+.chinatowntab [type=radio] {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  float: left;
+  display: none;
+}
+
+.chinatowntab [type=radio]:checked ~ label {
+color: #808B96;
+box-shadow: 2px 2px 1px var(--main);
+}
+
+.chinatowntab [type=radio]:checked ~ label ~ .chinatown-content {
+position: absolute;
+z-index: 2;
+opacity: 1;
+right: 0px;
+}
+
+/* characters & colors */
+#jaime {--main: #3399CC; --accent: #33CC66; --img: url(https://i.imgur.com/aTFCgte.jpg);}
+#esme {--main: #8E7FF0; --accent: #7FD2F0; --img: url(https://i.ibb.co/YXtbD53/esme-plotter.png);}
